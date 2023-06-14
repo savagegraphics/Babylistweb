@@ -1,0 +1,95 @@
+.cta2 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 6rem;
+    margin-top: 10rem;
+}
+
+.cta2-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.cta2-content h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    padding-right: 2rem;
+    color: #643843;
+    text-align: center;
+}
+
+.cta2-content h2 {
+    font-size: 4rem;
+    font-weight: 350;
+    padding-right: 2rem;
+    padding-bottom: 20px;
+    color: #643843;
+    text-align: center;
+}
+
+.cta2-content p {
+    font-size: 28px;
+    padding-right: 2rem;
+    color: #6D5D6E;
+    text-align: left;
+}
+
+.cta2-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.cta2-image .cta-img {
+    width: 600px;
+    height: 320px;
+    padding-top: 40px;
+    border-radius: 24px;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cta2 {
+        flex-direction: column;
+        margin: 3rem;
+        margin-top: 3rem;
+    }
+
+    .cta2-image {
+        flex: 1;
+        padding: 2px;
+    }
+
+    .cta2-image .cta2-img {
+        order: -1;
+        width: 600px;
+        height: 260px;
+    }
+
+    .cta2-content h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding-right: 0rem;
+        text-align: center;
+    }
+
+    .cta2-content h2 {
+        padding-bottom: 0;
+        white-space: nowrap;
+        font-size: 2.5rem;
+        font-weight: 350;
+        padding-right: 1rem;
+        padding-bottom: 12px;
+        color: #643843;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .cta2-content p {
+        font-size: 24px;
+        padding-right: 1rem;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+}
