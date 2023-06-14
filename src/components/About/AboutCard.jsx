@@ -6,7 +6,7 @@ const AboutCard = () => {
             <div className="card w-full md:w-1/3 mb-6 md:order-1">
                 <div className="card">
                     <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" className="img-fluid" alt="" />
+                        <Image src="https://mdbcdn.b-cdn.net/Image/new/standard/nature/111.webp" className="Image-fluid" alt="" />
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@ const AboutCard = () => {
             <div className="card w-full md:w-1/3 mb-3 mt-8 md:order-2">
                 <div className="card">
                     <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" className="img-fluid" alt="" />
+                        <Image src="https://mdbcdn.b-cdn.net/Image/new/standard/nature/111.webp" className="Image-fluid" alt="" />
                     </div>
                 </div>
             </div>

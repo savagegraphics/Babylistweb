@@ -1,7 +1,7 @@
 import React from 'react'
-import Img1 from '../assets/bg-img0.JPG'
-import Img2 from '../assets/bg-img0.JPG'
-import Img3 from '../assets/img3.PNG'
+import Image1 from '../assets/bg-Image0.JPG'
+import Image2 from '../assets/bg-Image0.JPG'
+import Image3 from '../assets/Image3.PNG'
 
 
 
@@ -20,7 +20,7 @@ const CTA1 = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <img alt="profil" src={ Img1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2">
                         <span className="text-sm font-semibold text-indigo-500">
@@ -44,7 +44,7 @@ const CTA1 = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <img alt="profil" src={ Img2 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image2 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2">
                         <span className="text-sm font-semibold text-indigo-500">
@@ -68,7 +68,7 @@ const CTA1 = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <img alt="profil" src={ Img3 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image3 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2">
                         <span className="text-sm font-semibold text-indigo-500">

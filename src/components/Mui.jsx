@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Imgg1 from "../assets/fam6.jpg"
-import Imgg2 from "../assets/fam2.jpg"
-import Imgg from "../assets/fam4.jpg"
+import Imageg1 from "../assets/fam6.jpg"
+import Imageg2 from "../assets/fam2.jpg"
+import Imageg from "../assets/fam4.jpg"
 
 
 
@@ -29,10 +29,10 @@ const Mui = () => {
                 </div>
             </div>
             <div className="flex items-center gap-8 p-8 lg:p-24">
-                <Image src={ Imgg } className="w-1/2 rounded-lg" alt="Tree" />
+                <Image src={ Imageg } className="w-1/2 rounded-lg" alt="Tree" />
                 <div>
-                    <Image src={ Imgg1 } className="mb-8 rounded-lg" alt="Tree" />
-                    <Image src={ Imgg2 } className="rounded-lg" alt="Tree" />
+                    <Image src={ Imageg1 } className="mb-8 rounded-lg" alt="Tree" />
+                    <Image src={ Imageg2 } className="rounded-lg" alt="Tree" />
                 </div>
             </div>
         </div >

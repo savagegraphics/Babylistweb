@@ -1,7 +1,7 @@
 import React from 'react'
-import Img1 from '../assets/img1.JPG'
-import Imgg0 from '../assets/imgg0.PNG'
-import Imgback from '../assets/imgback.PNG'
+import Image1 from '../assets/Image1.JPG'
+import Imageg0 from '../assets/Imageg0.PNG'
+import Imageback from '../assets/Imageback.PNG'
 
 
 
@@ -39,9 +39,9 @@ const CTA2 = () => {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="#" className="block w-full h-full">
-                        <img
+                        <Image
                             alt="blog photo"
-                            src={ Imgg0 }
+                            src={ Imageg0 }
                             className="object-cover w-full max-h-40"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
@@ -56,9 +56,9 @@ const CTA2 = () => {
                             </p>
                             <div className="flex items-center mt-4">
                                 <a href="#" className="relative block">
-                                    <img
+                                    <Image
                                         alt="profil"
-                                        src={ Img1 }
+                                        src={ Image1 }
                                         className="mx-auto object-cover rounded-full h-10 w-10"
                                     />
                                 </a>
@@ -76,9 +76,9 @@ const CTA2 = () => {
                 </div>
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="#" className="block w-full h-full">
-                        <img
+                        <Image
                             alt="blog photo"
-                            src={ Img1 }
+                            src={ Image1 }
                             className="object-cover w-full max-h-40"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
@@ -93,9 +93,9 @@ const CTA2 = () => {
                             </p>
                             <div className="flex items-center mt-4">
                                 <a href="#" className="relative block">
-                                    <img
+                                    <Image
                                         alt="profil"
-                                        src={ Imgg0 }
+                                        src={ Imageg0 }
                                         className="mx-auto object-cover rounded-full h-10 w-10"
                                     />
                                 </a>
@@ -113,9 +113,9 @@ const CTA2 = () => {
                 </div>
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="#" className="block w-full h-full">
-                        <img
+                        <Image
                             alt="blog photo"
-                            src={ Img1 }
+                            src={ Image1 }
                             className="object-cover w-full max-h-40"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
@@ -130,9 +130,9 @@ const CTA2 = () => {
                             </p>
                             <div className="flex items-center mt-4">
                                 <a href="#" className="relative block">
-                                    <img
+                                    <Image
                                         alt="profil"
-                                        src={ Imgback }
+                                        src={ Imageback }
                                         className="mx-auto object-cover rounded-full h-10 w-10"
                                     />
                                 </a>
