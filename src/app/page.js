@@ -1,4 +1,4 @@
-"use client";
+
 
 import React from 'react'
 import Page from '@/pages/page'
@@ -9,7 +9,7 @@ import Hero from '@/components/Hero';
 import FooterNew from '@/components/FooterNew';
 import About from '@/pages/About';
 import Services from '@/pages/Services';
-
+"use client";
 const page = () => {
   return (
     <div>
