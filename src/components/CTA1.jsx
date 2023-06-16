@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Image1 from '../assets/bg-Image0.JPG'
 import Image2 from '../assets/bg-Image0.JPG'
 import Image3 from '../assets/Image3.PNG'

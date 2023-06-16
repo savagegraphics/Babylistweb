@@ -52,7 +52,7 @@ const Tailwind = () => {
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        Add meaningful gifts you can't buy in stores.
+                                        Add meaningful gifts you can&apos;t buy in stores.
                                     </span>
                                 </div>
                             </li>

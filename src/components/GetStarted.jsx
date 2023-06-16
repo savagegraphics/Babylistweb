@@ -27,7 +27,7 @@ const GetStarted = () => {
                     <button type="button" style={ { backgroundColor: "azure" } } className=" bg-custom-transparent hover:bg-custom-[D14D72] hover:text-D14D72 focus:ring-D14D72-500 focus:ring-offset-D14D72-200 text-custom-D14D72 text-sm leading-6 font-medium m-4 py-2 px-3 rounded-lg">Find a Babylist Registry</button>
                 </div>
                 <p className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
-                    This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.
+                    This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur&apos;s Seat.
                 </p>
             </div>
         </main>

@@ -18,7 +18,7 @@ const AnewTwo = () => {
                         <p className="mb-4 text-xs text-gray-800">Product Manager</p>
                         <p className="text-sm tracking-wide text-gray-800">
                             Pommy ipsum bent as a nine bob note naff off biscuits nowt, a
-                            cuppa unhand me sir hadn't done it in donkey's years sod's law.
+                            cuppa unhand me sir hadn't done it in donkey's years sod&apos;s law.
                         </p>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Image1 from '../assets/Image1.JPG'
 import Imageg0 from '../assets/Imageg0.PNG'
 import Imageback from '../assets/Imageback.PNG'
