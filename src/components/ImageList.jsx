@@ -1,4 +1,5 @@
 import Imageg from "../assets/fam6.jpg"
+import Image from "next/image"
 
 
 export default function Example() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AnewTen = () => {
     return (
@@ -9,7 +10,8 @@ const AnewTen = () => {
                         src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                         alt=""
                         className="object-cover w-full lg:absolute h-80 lg:h-full"
-                    />
+                        width={ 1260 }
+                        height={ 750 } />
                     <svg
                         className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
                         viewBox="0 0 20 104"

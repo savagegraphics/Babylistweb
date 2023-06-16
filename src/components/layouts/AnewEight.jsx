@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AnewEight = () => {
     return (
@@ -54,6 +55,8 @@ const AnewEight = () => {
                     className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
                     src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                     alt=""
+                    width={ 860 }
+                    height={ 550 }
                 />
             </div>
         </div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Imageg1 from '../assets/bg-img0.JPG'
-import Imageg0 from '../assets/imgg0.PNG'
-import Imageback from '../assets/imgback.PNG'
+import Image1 from '../assets/imgback.PNG'
+
 
 
 
@@ -21,7 +20,7 @@ const Card = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <Image alt="profil" src={ Imageg1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2 pl-4">
                         <span className="text-sm font-semibold text-[#85586F]">
@@ -45,7 +44,7 @@ const Card = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <Image alt="profil" src={ Imageg1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2 pl-4">
                         <span className="text-sm font-semibold text-[#85586F]">
@@ -69,7 +68,7 @@ const Card = () => {
                 </p>
                 <div className="flex items-center mt-4">
                     <a href="#" className="relative block">
-                        <Image alt="profil" src={ Imageg1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
+                        <Image alt="profil" src={ Image1 } className="mx-auto object-cover rounded-full h-10 w-10 " />
                     </a>
                     <div className="flex flex-col justify-between ml-2 pl-4">
                         <span className="text-sm font-semibold text-[#85586F]">

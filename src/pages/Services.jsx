@@ -17,7 +17,6 @@ const Services = (props) => {
             <Navbar />
             <Landpagetwo />
             <Mui />
-            <AnewOne />
             <AnewTwo />
             <AnewEight />
             <AnewTen />

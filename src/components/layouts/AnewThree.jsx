@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AnewThree = () => {
     return (
@@ -69,6 +70,8 @@ const AnewThree = () => {
                         className="inset-0 object-cover object-bottom w-full h-56 rounded shadow-lg lg:absolute lg:h-full"
                         src="https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                         alt=""
+                        width={ 1260 }
+                        height={ 750 }
                     />
                 </div>
             </div>

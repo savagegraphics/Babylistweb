@@ -1,14 +1,17 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AnewTwo = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:pl-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
                 <div>
                     <Image
                         className="object-cover w-24 h-24 rounded-full shadow"
                         src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
                         alt="Person"
+                        width={ 1260 }
+                        height={ 750 }
                     />
                     <div className="flex flex-col justify-center mt-2">
                         <p className="text-lg font-bold">Oliver Aguilerra</p>
@@ -24,6 +27,8 @@ const AnewTwo = () => {
                         className="object-cover w-24 h-24 rounded-full shadow"
                         src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                         alt="Person"
+                        width={ 1260 }
+                        height={ 750 }
                     />
                     <div className="flex flex-col justify-center mt-2">
                         <p className="text-lg font-bold">Marta Clermont</p>
@@ -40,6 +45,8 @@ const AnewTwo = () => {
                         className="object-cover w-24 h-24 rounded-full shadow"
                         src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                         alt="Person"
+                        width={ 1260 }
+                        height={ 750 }
                     />
                     <div className="flex flex-col justify-center mt-2">
                         <p className="text-lg font-bold">Alice Melbourne</p>
@@ -55,6 +62,8 @@ const AnewTwo = () => {
                         className="object-cover w-24 h-24 rounded-full shadow"
                         src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                         alt="Person"
+                        width={ 1260 }
+                        height={ 750 }
                     />
                     <div className="flex flex-col justify-center mt-2">
                         <p className="text-lg font-bold">Martin Garix Potter</p>

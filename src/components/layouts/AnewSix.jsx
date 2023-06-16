@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AnewSix = () => {
     return (
@@ -10,6 +11,8 @@ const AnewSix = () => {
                             className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
                             src="https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                             alt=""
+                            width={ 1260 }
+                            height={ 750 }
                         />
                         <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />
                     </div>
@@ -37,6 +40,8 @@ const AnewSix = () => {
                             className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
                             src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                             alt=""
+                            width={ 1260 }
+                            height={ 750 }
                         />
                         <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />
                     </div>
