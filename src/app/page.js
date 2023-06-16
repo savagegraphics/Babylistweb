@@ -1,10 +1,8 @@
-"use client";
-
 import React from 'react'
 import Page from '@/pages/page'
 import { Routes, Route } from 'react-router-dom';
 import Home from '@/pages/Home';
-import Card from '../components/Card'
+import Card from '@/components/Card'
 import Hero from '@/components/Hero';
 import FooterNew from '@/components/FooterNew';
 import About from '@/pages/About';
