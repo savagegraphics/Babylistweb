@@ -80,6 +80,4 @@ const AnewTwo = () => {
     );
 };
 
-
-
-export default AnewTwo
+export default AnewTwo;
