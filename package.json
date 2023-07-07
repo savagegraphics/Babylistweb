@@ -17,7 +17,7 @@
     "@mui/icons-material": "^5.11.16",
     "autoprefixer": "10.4.14",
     "eslint": "8.42.0",
-    "eslint-config-next": "13.4.5",
+    "eslint-config-next": "13.4.6",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "next": "13.4.5",
